@@ -1,11 +1,8 @@
 # Building PES-VCS — A Version Control System from Scratch
 
 ## Student Details
-- Name: Saikavin S
-- SRN: PES1UG24CS402
-- GitHub Repository: https://github.com/Saikavin-S/PES1UG24CS402-pes-vcs
-
-## **NOTE:** I did not see `5 commits per phase` but did a commit for each phase. 
+- Name: Madhav Vinod
+- SRN: PES1UG24CS254
 
 This repository contains a working implementation of PES-VCS, a small local version control system built in C. It stores file contents as hashed objects, builds trees from staged files, records commit history, and updates branch references through a HEAD pointer.
 
@@ -54,33 +51,31 @@ The implementation was verified with the object tests, tree tests, and the full 
 
 ### Phase 1
 
-![1A](screenshots/1A.jpeg)
+![1A](screenshots/1.png)
 
-![1B](screenshots/1B.jpeg)
+![1B](screenshots/1b.png)
 
 ### Phase 2
 
-![2A](screenshots/2A.jpeg)
+![2A](screenshots/2.png)
 
-![2B](screenshots/2B.jpeg)
+![2B](screenshots/2b.png)
 
 ### Phase 3
 
-![3A](screenshots/3A.jpeg)
-
-![3B](screenshots/3B.jpeg)
+![3A](screenshots/3.png)
 
 ### Phase 4
 
-![4A](screenshots/4A.jpeg)
+![4A](screenshots/4.png)
 
-![4B](screenshots/4B.jpeg)
+![4B](screenshots/4b.png)
 
-![4C](screenshots/4C.jpeg)
+![4C](screenshots/4c.png)
 
 ### Final
 
-![Final integration test](screenshots/FINAL.jpeg)
+![Final integration test](screenshots/last.png)
 
 ## Analysis Answers
 ##### **Q5.1:** A branch in Git is just a file in `.git/refs/heads/` containing a commit hash. Creating a branch is creating a file. Given this, how would you implement `pes checkout <branch>` — what files need to change in `.pes/`, and what must happen to the working directory? What makes this operation complex?
